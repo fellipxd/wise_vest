@@ -3,7 +3,7 @@ import MonoConnect from '@mono.co/connect.js';
 import styled from 'styled-components';
 import { useHistory } from 'react-router-dom';
 import Button from './components/button/Button';
-import axios from 'axios';
+
 
 
 const Wrapper = styled.div`
@@ -27,11 +27,11 @@ const Mono = () => {
           onSuccess: () => history.push('/history'),
           key: "test_pk_wWgiS9xsTIEZG2QMv3Wu"
         })
-    
+  
         monoInstance.setup()
         
         return monoInstance;
-      }, [])
+      }, [history])
     
       return (
         <Wrapper>
