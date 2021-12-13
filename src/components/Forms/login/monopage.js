@@ -1,7 +1,7 @@
 import React from 'react'
 import Mono from '../../../MonoConnect'
 import styled from 'styled-components'
-
+import { Link } from "react-router-dom";
 
 const Page = styled.div`
  height: 100vh;
@@ -22,7 +22,7 @@ const Monopage = () => {
         <Page>
             <div>
             <Mono/>
-            <a href='/history'>Explore Dashboard</a>
+            <Link to='/history'>Explore Dashboard</Link>
             </div>
         </Page>
     )
