@@ -11,8 +11,8 @@ const LandingNav = () => {
                 <Navlink to='/'>Resources</Navlink>
                 {/* <Navlink to='/'>Dashboard</Navlink>
                 <Navlink to='/'>Expense Tracker</Navlink> */}
-                <Navlink to='/login'>Login</Navlink>
-                <Navlink to='/signup'><Button>Get Started</Button></Navlink>
+                <Navlink to='/signup'>Signup</Navlink>
+                <Navlink to='/login'><Button>Get Started</Button></Navlink>
                 
             </nav>
             </div>

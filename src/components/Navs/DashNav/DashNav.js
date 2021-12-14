@@ -12,7 +12,7 @@ const DashNav = ({ toggle }) => {
         <img src={logo} alt="wisevest_logo" />
       </NavLeft>
       <NavRight>
-        <Avatar>
+        <Avatar> 
           {" "}
           <img width="40" src={avatar} alt="avatar" />
         </Avatar>
